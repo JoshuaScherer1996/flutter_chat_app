@@ -1,16 +1,16 @@
 # flutter_chat_app
 
-A new Flutter project.
+Favorite Places is a Flutter app that allows you to keep track of your favorite locations! Take a picture of a place that is special to you and add it's location either through your current location or mark it on the map. That way you can always revisit those memories through accessing your saved places. This code was produced during the completion of the Flutter course [A Complete Guide to the Flutter SDK & Flutter Framework for building native iOS and Android apps](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/lecture/37130436#overview).
 
-## Getting Started
+## Basic functionality
+- Example
 
-This project is a starting point for a Flutter application.
+### Screenshots 
+<div align="center">
+  <img src="empty_locations.png" alt="Start screen without locations" width="200"/>
+  <img src="form_empty.png" alt="Form to input new locations" width="200"/>
+</div>
 
-A few resources to get you started if this is your first Flutter project:
+## Topics covered 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Used firebase for user authentication based on e-mail and password.
