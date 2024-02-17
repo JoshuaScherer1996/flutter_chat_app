@@ -14,3 +14,4 @@ Favorite Places is a Flutter app that allows you to keep track of your favorite 
 ## Topics covered 
 
 - Used firebase for user authentication based on e-mail and password.
+- Setup and included all the necessary tools from the firebase sdk.
