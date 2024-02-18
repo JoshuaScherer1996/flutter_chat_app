@@ -37,6 +37,7 @@ class App extends StatelessWidget {
           return const AuthScreen();
         },
       ),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
