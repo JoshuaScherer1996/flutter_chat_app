@@ -13,8 +13,9 @@ Favorite Places is a Flutter app that allows you to keep track of your favorite 
 
 ## Topics covered 
 
-- Used firebase for user authentication based on e-mail and password.
+- Used firebase for [user authentication](https://firebase.google.com/docs/auth/flutter/start) based on e-mail and password.
 - Setup and included all the necessary tools from the firebase sdk.
 - Learned about streams being similar to futures. While futures provide one value and are done a stream can provide multiple values over time.
 - Used StreamBuilder and authStateChanges() to adjust the shown screen based on the value the function yields as a stream.
 - Used the signOut() method from the firebase sdk to log users out.
+- Used [firebase storage](https://firebase.google.com/docs/storage/flutter/start) to upload profile images.
