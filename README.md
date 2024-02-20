@@ -23,3 +23,4 @@ Favorite Places is a Flutter app that allows you to keep track of your favorite 
 - Further used another collection inside firestore to store the chat messages.
 - Used FocusScope and the unfocus() method to immediately close the keyboard after finishing the input.
 - Included the pre defined bubble widget from [github](https://github.com/academind/flutter-complete-guide-course-resources/blob/main/Lecture%20Attachments/14%20Chat%20App/message_bubble.dart).
+- Used FirebaseMessaging to request permission for notifications and send them from firebase.
