@@ -20,3 +20,5 @@ Favorite Places is a Flutter app that allows you to keep track of your favorite 
 - Used the signOut() method from the firebase sdk to log users out.
 - Used [firebase storage](https://firebase.google.com/docs/storage/flutter/start) to upload profile images.
 - Used [firebase firestore](https://firebase.google.com/docs/firestore) to store the username, email and image url.
+- Further used another collection inside firestore to store the chat messages.
+- Used FocusScope and the unfocus() method to immediately close the keyboard after finishing the input.
