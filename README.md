@@ -1,14 +1,23 @@
-# flutter_chat_app
+# Flutter Chat App
 
-Favorite Places is a Flutter app that allows you to keep track of your favorite locations! Take a picture of a place that is special to you and add it's location either through your current location or mark it on the map. That way you can always revisit those memories through accessing your saved places. This code was produced during the completion of the Flutter course [A Complete Guide to the Flutter SDK & Flutter Framework for building native iOS and Android apps](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/lecture/37130436#overview).
+Flutter Chat is a Flutter app that allows you and your friends to chat with each other! Take a picture for your profile, sign up and always see what your friends have to say! This code was produced during the completion of the Flutter course [A Complete Guide to the Flutter SDK & Flutter Framework for building native iOS and Android apps](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/lecture/37130436#overview).
 
 ## Basic functionality
-- Example
+- Authentication with firebase
+- Chat messages securely stored in the firestore database
+- Images uploaded to firebase
+- Chat with multiple users within the same chatroom
 
 ### Screenshots 
 <div align="center">
-  <img src="empty_locations.png" alt="Start screen without locations" width="200"/>
-  <img src="form_empty.png" alt="Form to input new locations" width="200"/>
+  <img src="login_screen.png" alt="Login screen" width="200"/>
+  <img src="signup_screen_empty.png" alt="Empty login screen" width="200"/>
+  <img src="signup_screen_filled.png" alt="Login screen filled out with example data" width="200"/>
+  <img src="empty_chat.png" alt="Empty chat before the first message" width="200"/>
+  <img src="first_message.png" alt="First message in the chat" width="200"/>
+  <img src="second_message.png" alt="Second message in the chat" width="200"/>
+  <img src="typing_message.png" alt="Typing a message in the chat" width="200"/>
+  <img src="third_message.png" alt="Third message in the chat" width="200"/>
 </div>
 
 ## Topics covered 
