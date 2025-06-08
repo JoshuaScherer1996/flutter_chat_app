@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
-// UserImagePicker widget allows users to pick an image from their camera.
+/// A widget that allows users to pick an image using the device camera.
 class UserImagePicker extends StatefulWidget {
   // Constructor for UserImagePicker which requires a callback function to handle the picked image.
   const UserImagePicker({
@@ -11,7 +11,7 @@ class UserImagePicker extends StatefulWidget {
     required this.onPickImage, // Callback function to be called with the picked image.
   });
 
-  // Callback function that gets called with the picked image file.
+  /// Callback function to return the picked image.
   final void Function(File pickedImage) onPickImage;
 
   @override
@@ -24,7 +24,7 @@ class _UserImagePickerState extends State<UserImagePicker> {
   // Variable to hold the picked image file.
   File? _pickedImageFile;
 
-  // Method to handle image picking from the camera.
+  /// Opens the camera and lets the user pick an image.
   void _pickImage() async {
     // Uses the ImagePicker plugin to pick an image.
     final pickedImage = await ImagePicker().pickImage(

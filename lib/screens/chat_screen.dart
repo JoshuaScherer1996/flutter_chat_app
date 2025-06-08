@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_chat_app/widgets/chat_messages.dart';
 import 'package:flutter_chat_app/widgets/new_message.dart';
 
-// ChatScreen widget represents the main screen of the chat application.
+/// Main chat interface of the application.
 class ChatScreen extends StatefulWidget {
   // Constructor for ChatScreen with an optional Key parameter.
   const ChatScreen({super.key});
@@ -16,7 +16,7 @@ class ChatScreen extends StatefulWidget {
 
 // Private State class for ChatScreen to manage its state and handle push notifications.
 class _ChatScreenState extends State<ChatScreen> {
-  // Method to set up push notifications using Firebase Messaging.
+  /// Configures Firebase push notifications.
   void setupPushNotification() async {
     // Gets an instance of FirebaseMessaging.
     final fcm = FirebaseMessaging.instance;

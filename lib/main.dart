@@ -6,7 +6,7 @@ import 'package:flutter_chat_app/screens/chat_screen.dart';
 import 'package:flutter_chat_app/screens/splash_screen.dart';
 import 'firebase_options.dart';
 
-// Main entry point of the Flutter application.
+/// Main entry point of the application.
 void main() async {
   // Ensures that widget binding is initialized before running the app.
   // This is necessary for plugins that need to call native code before the runApp method.
@@ -22,7 +22,7 @@ void main() async {
   runApp(const App());
 }
 
-// Defines the App widget which is the root of your application.
+/// Root widget of the FlutterChat application.
 class App extends StatelessWidget {
   // Constructor with an optional Key parameter using super initializer for key.
   const App({super.key});

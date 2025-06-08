@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
-// A MessageBubble for showing a single chat message on the ChatScreen.
+/// A single chat message bubble, styled differently depending on its position
+/// in a message sequence and whether it's from the current user.
 class MessageBubble extends StatelessWidget {
-  // Create a message bubble which is meant to be the first in the sequence.
+  /// Creates the first message in a sequence (includes avatar and username).
   const MessageBubble.first({
     super.key,
     required this.userImage,
@@ -11,7 +12,7 @@ class MessageBubble extends StatelessWidget {
     required this.isMe,
   }) : isFirstInSequence = true;
 
-  // Create a amessage bubble that continues the sequence.
+  /// Creates a follow-up message bubble (without avatar and username).
   const MessageBubble.next({
     super.key,
     required this.message,

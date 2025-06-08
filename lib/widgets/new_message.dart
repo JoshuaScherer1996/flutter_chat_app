@@ -2,7 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
-// NewMessage widget for creating and submitting new chat messages.
+/// Widget for composing and sending new chat messages.
 class NewMessage extends StatefulWidget {
   // Constructor with an optional Key parameter using super initializer for key.
   const NewMessage({super.key});
@@ -25,7 +25,7 @@ class _NewMessageState extends State<NewMessage> {
     super.dispose();
   }
 
-  // Method to handle the submission of the message.
+  /// Sends the current input as a new chat message to Firestore.
   void submitMessage() async {
     // Retrieves the text from the text field.
     final enteredMessage = _messageController.text;

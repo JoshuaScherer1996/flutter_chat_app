@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-// SplashScreen widget displays a simple loading screen to the user.
+/// A basic loading screen shown while checking authentication state.
 class SplashScreen extends StatelessWidget {
   // Constructor for SplashScreen with an optional Key parameter.
   const SplashScreen({super.key});

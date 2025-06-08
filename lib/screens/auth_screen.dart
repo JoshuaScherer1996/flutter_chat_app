@@ -9,7 +9,7 @@ import 'package:flutter_chat_app/widgets/user_image_picker.dart';
 // Global instance of FirebaseAuth used for authentication operations.
 final _firebase = FirebaseAuth.instance;
 
-// AuthScreen widget provides a user interface for authentication, including login and signup.
+/// A screen that handles user authentication (login and signup).
 class AuthScreen extends StatefulWidget {
   // Constructor for AuthScreen with an optional Key parameter.
   const AuthScreen({super.key});
@@ -33,7 +33,7 @@ class _AuthScreenState extends State<AuthScreen> {
   var _isAuthenticating =
       false; // Flag to indicate ongoing authentication process.
 
-  // Function to handle form submission for both login and signup.
+  /// Handles form submission for login and signup.
   void _submit() async {
     // Validates the form fields according to their validators.
     final isValid = _formKey.currentState!.validate();

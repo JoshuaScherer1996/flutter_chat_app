@@ -3,7 +3,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_chat_app/widgets/message_bubble.dart';
 
-// ChatMessages widget to display chat messages in a list view.
+/// Displays chat messages in a live-updating list from Firestore.
 class ChatMessages extends StatelessWidget {
   // Constructor with an optional Key parameter using super initializer for key.
   const ChatMessages({super.key});
